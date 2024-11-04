@@ -22,18 +22,15 @@ import inquirer
 
 console = Console()
 
-# Function to display the header
 def display_header():
     console.print(Panel.fit("[bold blue]My Terminal Portfolio[/bold blue]", style="bold yellow"))
 
-# Function to display the About Me section
 def about_me():
     console.print(Panel("[bold]About Me[/bold]\n"
                         "Hello! I'm [Your Name], a software developer specializing in Python.\n"
                         "I love creating innovative solutions and contributing to open-source projects.\n"
                         "Let's connect!", style="green"))
 
-# Function to display Skills section
 def skills():
     table = Table(title="Skills")
     table.add_column("Skill", justify="center", style="cyan", no_wrap=True)
@@ -52,7 +49,6 @@ def skills():
     
     console.print(table)
 
-# Function to display Projects section
 def projects():
     table = Table(title="Projects")
     table.add_column("Project Name", justify="center", style="cyan", no_wrap=True)
@@ -69,14 +65,12 @@ def projects():
 
     console.print(table)
 
-# Function to display Contact Information
 def contact_info():
     console.print(Panel("[bold]Contact Me[/bold]\n"
                         "Email: [your_email@example.com]\n"
                         "GitHub: [github.com/yourusername]\n"
                         "LinkedIn: [linkedin.com/in/yourusername]", style="green"))
 
-# Function to handle user input and navigate the portfolio
 def navigate():
     questions = [
         inquirer.List('section',
@@ -87,7 +81,6 @@ def navigate():
     answers = inquirer.prompt(questions)
     return answers['section']
 
-# Main function to run the portfolio
 def main():
     display_header()
     while True:
