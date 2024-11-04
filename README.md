@@ -1,3 +1,8 @@
+please use code view for better readablity
+
+
+
+
 Step 1: Set Up Your Project
 
 1. Create a folder for your project (e.g., terminal-portfolio).
