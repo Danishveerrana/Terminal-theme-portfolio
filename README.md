@@ -5,7 +5,7 @@ Step 1: Set Up Your Project
 
 2. Install required libraries:
 
-pip install rich inquirer
+'''pip install rich inquirer'''
 
 
 
@@ -14,7 +14,7 @@ Step 2: Basic Portfolio Structure
 We’ll structure the portfolio into sections like "About Me," "Skills," "Projects," and "Contact." Each section will be styled with the Rich library.
 
 Here’s the starter code:
-
+'''
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
@@ -112,4 +112,4 @@ def main():
         input()
 
 if __name__ == "__main__":
-    main()
+    main()'''
