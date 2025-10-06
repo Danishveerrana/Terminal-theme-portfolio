@@ -98,4 +98,4 @@ GitHub: github.com/yourusername
 LinkedIn: linkedin.com/in/yourusername
 
 
-Thank you for taking the time to explore my terminal portfolio! I hope you find it informative and engaging.
+Thank you for taking the time to explore my terminal portfolio! I hope you find it informative and engaging...
